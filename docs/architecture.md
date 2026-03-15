@@ -14,13 +14,13 @@ webx/
 ├─ public/ # Public assets (favicon, robots.txt, etc.)
 ├─ UI/ # Reusable UI components
 ├─ utils/ # Non-UI utility functions and helpers
-└─ api/ # API routes and backend logic
 ```
 
 ```mermaid
 graph TD
-  A[app/] --> B[UI/]
+  A[webx/] --> B[app/]  
   A --> C[data/]
   A --> D[img/]
-  A --> E[api/]
-  A --> F[utils/]
+  A --> E[public/]
+  A --> F[UI/]
+  A --> G[utils/]
