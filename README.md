@@ -69,8 +69,8 @@ Detailed technical breakdowns:
 
 Current
 
-![webx-desktop-lighthouse](screenshots/lighthouse-current.png)
+![webx-desktop-lighthouse](img/webx-desktop-lighthouse.png)
 
 Legacy (v4)
 
-![webx-lighthouse-v4](screenshots/lighthouse-v4.png)
+![webx-lighthouse-v4](img/webx-lighthouse-v4.png)
