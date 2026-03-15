@@ -18,7 +18,7 @@ webx/
 │  ├─ (contact)
 |  |  └─ Contact.tsx
 │  ├─ components/
-│  │  ├─ (comps)          # Example compoents 
+│  │  ├─ (comps)          # Example components 
 │  │   ├─ buttons/
 │  │   ├─ cards/
 │  │   └─ ...etc
