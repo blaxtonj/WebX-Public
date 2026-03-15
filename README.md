@@ -35,8 +35,6 @@ Detailed technical breakdowns:
 - [Architecture](docs/architecture.md)
 - [Engineering Challenges](docs/engineering-challenges.md)
 - [Performance Strategy](docs/performance.md)
-- [UI Experiments](docs/ui-experiments.md)
-- [Version History](docs/version-history.md)
 
 
 ## Versions
