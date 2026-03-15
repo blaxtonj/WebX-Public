@@ -38,7 +38,7 @@ Result:
 
 ### Animation Strategy — Motion
 
-UI animations are implemented with **Motion (Motion One)**.
+UI animations are implemented with **Motion/Framer Motion (Motion One)**.
 
 Reasons:
 - hardware-accelerated animations
