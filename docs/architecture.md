@@ -8,19 +8,32 @@ to ensure maintainability, performance, and scalability.
 
 ```
 webx/
-├─ app/ # Main pages and routes
-├─ data/ # Static configuration and JSON data files
-├─ img/ # Static images used throughout the site
-├─ public/ # Public assets (favicon, robots.txt, etc.)
-├─ UI/ # Reusable UI components
-├─ utils/ # Non-UI utility functions and helpers
+├─ app/
+│  ├─ (hero)/
+│  │  ├─ Hero.tsx          
+│  ├─ (services)
+│  │  ├─ Audit.tsx         
+│  │  ├─ ExploreComps.tsx  
+|  |  └─ Services.tsx  
+│  ├─ (contact)
+|  |  └─ Contact.tsx
+│  ├─ components/
+│  │  ├─ (comps)          # Example compoents 
+│  │   ├─ buttons/
+│  │   ├─ cards/
+│  │   └─ ...etc
+|  |  ├─ (sections)       # Example components for page sections 
+|  |   ├─ faq/
+|  |   ├─ hero/
+|  |   └─ ...etc
+|  |  
+│  └─ api/
+│     └─ submit
+|      └─ route.ts         # API route for form submission 
+├─ UI/                     # Reusable UI components
+├─ data/                   # Static configuration & JSON data
+├─ img/                    # Static images
+└─ utils/                  # Utility functions
 ```
 
-```mermaid
-graph TD
-  A[webx/] --> B[app/]  
-  A --> C[data/]
-  A --> D[img/]
-  A --> E[public/]
-  A --> F[UI/]
-  A --> G[utils/]
+
