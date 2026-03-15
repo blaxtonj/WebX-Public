@@ -16,3 +16,11 @@ webx/
 ├─ utils/ # Non-UI utility functions and helpers
 └─ api/ # API routes and backend logic
 ```
+
+```mermaid
+graph TD
+  A[app/] --> B[UI/]
+  A --> C[data/]
+  A --> D[img/]
+  A --> E[api/]
+  A --> F[utils/]
