@@ -64,3 +64,113 @@ By centralizing responsive animation parameters into reusable hooks, the scroll 
 - consistent across **mobile, tablet, and desktop devices**
 
 This approach also simplified component logic by separating **animation configuration from rendering logic**.
+
+---
+
+### 2. Refactoring Scroll Logic for Maintainability
+#### Problem
+
+The scroll animation system used in the services section became increasingly complex as more animation states were introduced. Each card in the stack required calculations for:
+
+- scroll progress
+- stacking phases
+- exit positions
+- responsive layout changes
+- content opacity and scaling
+
+Initially, much of this logic lived directly inside the component. As the animation grew more sophisticated, the component became difficult to read and maintain, at its peak the file had over 500 lines code. 
+
+#### Challenge
+
+The challenge was to **reduce complexity within the component while preserving the flexibility of the animation system**. Without refactoring, the component would become tightly coupled to the animation calculations, making future changes difficult.
+
+#### Solution
+
+To improve maintainability, the scroll animation logic was broken into smaller, reusable utility functions and hooks located in a dedicated utility module.
+
+Instead of handling all calculations inside the component, responsibilities were separated into focused helpers such as:
+
+- ```useDesktopScroll()``` – calculates scroll progress for desktop layouts
+- ```useMobileScroll()``` – handles scroll progress logic for mobile layouts
+- ```useDesktopY() / useMobileY()``` – compute card positioning during animations
+- ```useDesktopHeight() / useMobileHeight()``` – manage expansion and collapse behavior
+
+This approach allowed the main component to focus only on rendering and composition, while animation logic was handled by specialized utilities.
+
+Example:
+
+```
+const desktopScroll = useDesktopScroll({
+  progress,
+  start: layout.start,
+  end: layout.end,
+  globalEnd: breakpoints.globalEnd,
+});
+
+const desktopY = useDesktopY({
+  index,
+  progress,
+  cardProgress: desktopScroll.cardProgress,
+});
+```
+#### Outcome
+
+By separating animation calculations into dedicated utilities:
+
+- the main component became **significantly easier to read**
+- scroll logic became **reusable across components**
+- animation behavior became **easier to debug and extend**
+- reduced the file size by half
+
+This refactor helped transform a complex animation implementation into a **modular and maintainable system**.
+
+---
+
+### 3. Synchronizing Multi-Phase Scroll Animations
+#### Problem
+
+The services section uses a stacked card animation where multiple cards animate in sequence as the user scrolls. Each card must transition through several animation phases, including:
+
+- entering the stack
+- expanding to reveal content
+- collapsing and restacking
+- responsive layout changes
+- exiting the viewport
+
+Because multiple cards are visible at once, their animations must remain **synchronized with scroll progress while still behaving independently**.
+
+Without careful coordination, issues can occur such as:
+- cards overlapping incorrectly
+- animations triggering too early or too late
+- inconsistent spacing between stacked elements
+
+#### Challenge
+
+To solve this, the scroll animation system was designed around **scroll progress mapping**. The global scroll progress value was divided into smaller ranges representing different animation phases
+
+Each card calculates its own animation state based on:
+- its position in the stack
+- the global scroll progress
+- predefined phase boundaries (start, expand, restack, exit)
+
+These calculations are encapsulated in utility functions such as:
+
+```
+  const layout = getCardLayout(index, total);
+```
+This helper determines the scroll boundaries for each card, allowing animations to remain synchronized while still behaving independently.
+
+Scroll progress is then used to drive motion values that control properties such as:
+- ```translateY```
+- ```scale```
+- ```opacity```
+- ```height```
+
+#### Outcome
+
+This approach allowed the stacked cards to animate smoothly as the user scrolls while maintaining consistent spacing and timing across all cards.
+
+By mapping animation phases to scroll progress ranges, the animation system remains:
+- predictable
+- scalable to additional cards
+- easier to reason about during future changes
