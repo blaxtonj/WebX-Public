@@ -1,10 +1,9 @@
 
 ## Key Engineering Decisions
 
-During the development of webx several architectural decisions were made
-to keep the application lightweight, maintainable, and performant.
+During the development of webx, several architectural decisions were made to keep the application lightweight, maintainable, and performant. The following tools were selected based on their ability to reduce complexity while supporting modern React development patterns.
 
-### State Management — Zustand
+### State Management — [Zustand](https://zustand-demo.pmnd.rs/)
 
 Instead of Redux or heavy global state libraries, **Zustand** was chosen.
 
@@ -21,9 +20,9 @@ Result:
 
 ---
 
-### Form Handling — React Hook Form
+### Form Handling — [React Hook Form](https://react-hook-form.com/)
 
-Forms are handled using **React Hook Form** combined with **Yup** validation.
+Forms are handled using **React Hook Form** combined with **[Yup](https://github.com/jquense/yup)** validation.
 
 Reasons:
 - minimal re-renders
@@ -36,7 +35,7 @@ Result:
 
 ---
 
-### Animation Strategy — Motion
+### Animation Strategy — [Motion](https://motion.dev/)
 
 UI animations are implemented with **Motion/Framer Motion (Motion One)**.
 
@@ -52,7 +51,7 @@ Result:
 
 ---
 
-### Styling Strategy — TailwindCSS
+### Styling Strategy — [TailwindCSS](https://tailwindcss.com/)
 
 TailwindCSS is used as the primary styling solution.
 
