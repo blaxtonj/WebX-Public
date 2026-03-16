@@ -45,7 +45,7 @@ Pages inside groups:
 
 - (hero)/Hero.tsx → /
 
-- (services)/services.tsx → /
+- (services)/Services.tsx → /
 
 - (contact)/Contact.tsx → /
 
