@@ -1,6 +1,6 @@
 
 ## Lighthouse Performance
-To evaluate performance improvements over time, I used Lighthouse audits in Chrome DevTools. The results below compare the current implementation with an earlier version of the project.
+Performance improvements were evaluated using Lighthouse audits in Chrome DevTools.. The results below compare the current implementation with an earlier version of the project.
 
 ### Current Performance
 
@@ -11,7 +11,7 @@ The current version achieves strong performance scores across all major Lighthou
  - optimized image delivery
  - animation techniques using GPU-accelerated transforms
  - improved component rendering structure
- - improved semantic data structure
+ - improved semantic HTML structure
 
 ### Legacy Performance (v4)
 
@@ -39,7 +39,8 @@ UI components were broken into smaller, reusable units, reducing unnecessary re-
 
 ### 3. Asset Optimization
 
-Images were optimized and served in appropriate formats to reduce payload size.
+Images were optimized to reduce payload size and improve loading performance.
+Where possible, images are served in modern formats and sized appropriately to avoid unnecessary bandwidth usage.
 
 ### 4. Improved Semantic Structure
 
