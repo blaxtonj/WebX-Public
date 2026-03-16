@@ -35,7 +35,7 @@ Detailed technical breakdowns:
 - [Architecture](docs/architecture.md)
 - [Engineering Challenges](docs/engineering-challenges.md)
 - [Performance Strategy](docs/performance.md)
-
+- [Key Engineering Decsions](docs/key-engineering-decisions.md)
 
 ## Versions
 
