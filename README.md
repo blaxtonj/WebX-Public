@@ -43,9 +43,9 @@ Detailed technical breakdowns:
 | :--- | :--- | :--- | :--- |
 | **Current** | 🟢 Live | [webx.ink](https://www.webx.ink) | UI & SEO Optimization  |
 | **v4.0** | 🟡 Legacy | [Demo Link](https://webx-j12y-nkhwghj2p-webxllcs-projects.vercel.app/) | 1234 |
-| **v3.0** | ⚪ Archive | [Source Code](https://github.com/blaxtonj/webx/tree/3d27fc6cc842c7025aadf3e7dd479bbdf74fc8d3) | 1234 |
-| **v2.0** | ⚪ Archive | [Source Code](https://github.com/blaxtonj/webx/tree/9abb46622cd85e1bf3f2ef755bd855a586e3e9e2) | 1234 |
-| **v1.0** | ⚪ Archive | [Source Code](https://github.com/blaxtonj/webx/tree/9abb46622cd85e1bf3f2ef755bd855a586e3e9e2) | 1234 |
+| **v3.0** | ⚪ Archive | [Demo Link](https://webx-j12y-anphr6sh0-webxllcs-projects.vercel.app/) | 1234 |
+| **v2.0** | ⚪ Archive | [Demo Link](https://webx-j12y-74o41ess9-webxllcs-projects.vercel.app/) | 1234 |
+| **v1.0** | ⚪ Archive | [Demo Link](https://webx-j12y-rg86c1315-webxllcs-projects.vercel.app/) | Initial Prototype |
 
 
 ## Tech Stack
