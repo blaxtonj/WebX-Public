@@ -37,7 +37,7 @@ Detailed technical breakdowns:
 - [Performance Strategy](docs/performance.md)
 - [Key Engineering Decsions](docs/key-engineering-decisions.md)
 
-## Versions
+## Versions History
 
 | Version | Status | Source / Link | Key Focus |
 | :--- | :--- | :--- | :--- |
@@ -46,6 +46,18 @@ Detailed technical breakdowns:
 | **v3.0** | ⚪ Archive | [Demo Link](https://webx-j12y-anphr6sh0-webxllcs-projects.vercel.app/) | 1234 |
 | **v2.0** | ⚪ Archive | [Demo Link](https://webx-j12y-74o41ess9-webxllcs-projects.vercel.app/) | 1234 |
 | **v1.0** | ⚪ Archive | [Demo Link](https://webx-j12y-rg86c1315-webxllcs-projects.vercel.app/) | Initial Prototype |
+
+## Major Changes 
+
+### v1
+
+### v2
+
+### v3
+
+### v4
+
+### current 
 
 
 ## Tech Stack
