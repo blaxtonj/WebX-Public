@@ -50,14 +50,29 @@ Detailed technical breakdowns:
 ## Major Changes 
 
 ### v1
+- Basic static landing page
+- Early UI experiment
+- Tailwind styling system introduced
 
 ### v2
+- Introduction of Animations
+- Introduction of reusable UI components
+- Improved layout structure
 
 ### v3
+- Improved UI & Animations
+- Introduction of ```components/```
+- Migration to app router 
 
 ### v4
+- Migration to Tailwind v4
+- Completet UI overhall
 
 ### current 
+- Optimized Lighthouse performance
+- Improved semantic HTML structure
+- enhanced SEO and accessibility
+- Advanced scroll-driven UI
 
 
 ## Tech Stack
