@@ -1,6 +1,6 @@
-# WebX-Public
+# WebX-Technical Case Study
 
-## Technical Case Study
+## Overview
 
 This repository documents the **3-year evolution of WebX**, my personal
 web development platform.
@@ -8,6 +8,12 @@ web development platform.
 The core project lives in a private repository. This public repo
 highlights architecture decisions, performance optimizations,
 and engineering challenges.
+
+**WebX** is a personal development platform used to experiment with
+modern frontend architecture, performance optimization, and SEO.
+
+The project evolved from a beginner static site into a
+performance-focused **Next.js application**.
 
 
 ## What This Repo Demonstrates
@@ -17,16 +23,6 @@ and engineering challenges.
 - SEO strategy
 - Animation systems
 - Long-term project evolution
-
-
-## Overview
-
-**webx** is a personal development platform used to experiment with
-modern frontend architecture, performance optimization, and SEO.
-
-The project evolved from a beginner static site into a
-performance-focused **Next.js application**.
-
 
 ## Documentation
 
