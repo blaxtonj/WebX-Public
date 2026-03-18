@@ -2,7 +2,7 @@
 
 ## Technical Case Study
 
-This repository documents the **3-year evolution of webx**, my personal
+This repository documents the **3-year evolution of WebX**, my personal
 web development platform.
 
 The core project lives in a private repository. This public repo
@@ -12,11 +12,11 @@ and engineering challenges.
 
 ## What This Repo Demonstrates
 
-- modern frontend architecture
-- performance optimization
+- Modern frontend architecture
+- Performance optimization
 - SEO strategy
-- animation systems
-- long-term project evolution
+- Animation systems
+- Long-term project evolution
 
 
 ## Overview
@@ -35,23 +35,23 @@ Detailed technical breakdowns:
 - [Architecture](docs/architecture.md)
 - [Engineering Challenges](docs/engineering-challenges.md)
 - [Performance Strategy](docs/performance.md)
-- [Key Engineering Decsions](docs/key-engineering-decisions.md)
+- [Key Engineering Decisions](docs/key-engineering-decisions.md)
 
 ## Versions History
 
 | Version | Status | Source / Link | Key Focus |
 | :--- | :--- | :--- | :--- |
-| **Current** | 🟢 Live | [webx.ink](https://www.webx.ink) | UI & SEO Optimization  |
-| **v4.0** | 🟡 Legacy | [Demo Link](https://webx-j12y-nkhwghj2p-webxllcs-projects.vercel.app/) | 1234 |
-| **v3.0** | ⚪ Archive | [Demo Link](https://webx-j12y-anphr6sh0-webxllcs-projects.vercel.app/) | 1234 |
-| **v2.0** | ⚪ Archive | [Demo Link](https://webx-j12y-74o41ess9-webxllcs-projects.vercel.app/) | 1234 |
+| **Current** | 🟢 Live | [webx.ink](https://www.webx.ink) | Performance, SEO, scroll-driven UI  |
+| **v4.0** | 🟡 Legacy | [Demo Link](https://webx-j12y-nkhwghj2p-webxllcs-projects.vercel.app/) | UI overhaul & design system  |
+| **v3.0** | ⚪ Archive | [Demo Link](https://webx-j12y-anphr6sh0-webxllcs-projects.vercel.app/) | App Router & component architecture |
+| **v2.0** | ⚪ Archive | [Demo Link](https://webx-j12y-74o41ess9-webxllcs-projects.vercel.app/) | Intro to Animations |
 | **v1.0** | ⚪ Archive | [Demo Link](https://webx-j12y-rg86c1315-webxllcs-projects.vercel.app/) | Initial Prototype |
 
 ## Major Changes 
 
 ### v1
 - Basic static landing page
-- Early UI experiment
+- Early UI experimentation
 - Tailwind styling system introduced
 
 ### v2
@@ -61,17 +61,17 @@ Detailed technical breakdowns:
 
 ### v3
 - Improved UI & Animations
-- Introduction of ```components/```
-- Migration to app router 
+- Interactive `component/` sandbox (public UI examples)
+- Migration to the App Router
 
 ### v4
 - Migration to Tailwind v4
-- Completet UI overhall
+- Complete UI overhaul
 
-### current 
+### Current 
 - Optimized Lighthouse performance
 - Improved semantic HTML structure
-- enhanced SEO and accessibility
+- Enhanced SEO and accessibility
 - Advanced scroll-driven UI
 
 
