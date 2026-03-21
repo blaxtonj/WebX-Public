@@ -128,7 +128,7 @@ Animations play a major role in the visual design of the site. The animation sys
 
 -  minimal layout recalculations
   
-Interactive elements and animated sections use Motion One, allowing smooth motion while maintaining strong performance scores.
+Interactive elements and animated sections use Framer Motion, allowing smooth motion while maintaining strong performance scores.
 
 Animations are typically isolated within individual components to prevent unnecessary re-renders and maintain predictable behavior.
 
