@@ -78,7 +78,7 @@ Detailed technical breakdowns:
 | **Framework** | React, Next.js, TypeScript |
 | **State Management** | Zustand |
 | **Styling & UI** | Tailwind CSS|
-| **Animation** | Motion (Motion One) |
+| **Animation** | Framer Motion |
 | **Forms & Validation** | React Hook Form, Yup |
 | **Backend Utilities** | Node.js, Nodemailer |
 | **Deployment & Ops** | GitHub, Vercel |
